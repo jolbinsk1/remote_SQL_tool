@@ -14,7 +14,7 @@ pip install mysql-connector-python
 Run the script:
 
 ```bash
-python script_name.py
+python remote_sql_tool.py
 ```
 When prompted, enter the following information:
 
@@ -30,7 +30,7 @@ The script will connect to the specified MySQL server, execute the query, and pr
 ### Example
 
 ```bash
-python script_name.py
+python remote_sql_tool.py
 ```
 
 ```bash
@@ -56,7 +56,7 @@ If there is an error connecting to the MySQL server or executing the query, an e
 ### Example:
 
 ```bash
-Error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+Error: 1045 (28000): Access denied for user 'xyz'@'localhost' (using password: XYZ)
 ```
 
 ## Notes
