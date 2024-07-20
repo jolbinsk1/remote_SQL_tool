@@ -18,12 +18,10 @@ python remote_sql_tool.py
 ```
 When prompted, enter the following information:
 
-```bash
-Remote host: The address of the MySQL server you want to connect to.
-Username: Your MySQL username.
-Password: Your MySQL password.
-SQL query: The SQL query you want to execute.
-```
+- **Remote host:** The address of the MySQL server you want to connect to.
+- **Username:** Your MySQL username.
+- **Password:** Your MySQL password.
+- **SQL query:** The SQL query you want to execute.
 
 The script will connect to the specified MySQL server, execute the query, and print the results.
 
